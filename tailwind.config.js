@@ -2,6 +2,10 @@ module.exports = {
     content: ['./public/index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            backgroundImage: {
+                'desktop-header': "url('../images/desktop/image-header.jpg')",
+                'mobile-header': "url('../images/mobile/image-header.jpg')",
+            },
             colors: {
                 primary: {
                     red: 'hsl(7, 99%, 70%)',

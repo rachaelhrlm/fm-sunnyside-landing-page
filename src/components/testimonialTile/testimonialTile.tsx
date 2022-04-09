@@ -17,10 +17,10 @@ export const TestimonialTile: FunctionComponent<TestimonialTileProps> = ({ autho
                 />
             </span>
             <p className="text-neutral-blue2">{message}</p>
-            <span>
+            <div>
                 <h2 className="font-serif text-lg">{author}</h2>
                 <small className="text-neutral-blue4">{role}</small>
-            </span>
+            </div>
         </div>
     );
 };

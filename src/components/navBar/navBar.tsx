@@ -13,11 +13,11 @@ export const Navbar: FunctionComponent = () => {
                 <Hamburger className="hover:opacity-50 md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)} />
                 <nav className="hidden md:flex md:gap-8 md:place-items-center">
                     {links.map((link, index) => (
-                        <li
+                        <span
                             key={index}
-                            className="inline cursor-pointer text-white text-sm font-sans hover:text-white/70 transition-all duration-300 ease-in-out">
+                            className="cursor-pointer text-white text-sm font-sans hover:text-white/70 transition-all duration-300 ease-in-out">
                             {link}
-                        </li>
+                        </span>
                     ))}
                     <button className="font-serif uppercase text-xs bg-white rounded-full py-3 px-6 hover:bg-white/30 hover:text-white transition-all duration-300 ease-in-out">
                         Contact

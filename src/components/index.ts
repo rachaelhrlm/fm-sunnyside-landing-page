@@ -8,4 +8,5 @@ export * from './menu';
 export * from './navbar';
 export * from './serviceTile';
 export * from './services';
+export * from './testimonialTile';
 export * from './textTile';

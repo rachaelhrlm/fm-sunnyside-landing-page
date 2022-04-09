@@ -18,7 +18,7 @@ export const ImageTile: FunctionComponent<ImageTileProps> = ({ color, image, pos
                 { 'bg-primary-yellow': color === Color.YELLOW },
                 { 'bg-primary-red': color === Color.RED },
                 { 'bg-[#8FD6C7]': color === Color.GREEN },
-                { 'bg-[#5BCFFF]': color === Color.BLUE },
+                { 'bg-[#5ECFFF]': color === Color.BLUE },
                 { 'place-items-center': position === 'center' },
                 { 'place-items-end': position === 'bottom' },
                 { 'place-items-start': position === 'top' },

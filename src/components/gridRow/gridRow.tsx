@@ -6,5 +6,5 @@ export interface GridRowProps {
 }
 
 export const GridRow: FunctionComponent<GridRowProps> = ({ children, direction = 'flex-col' }) => {
-    return <div className={classNames('flex md:flex-row', [direction])}>{children}</div>;
+    return <div className={classNames('flex md:flex-row justify-center', [direction])}>{children}</div>;
 };

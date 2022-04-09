@@ -404,6 +404,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-full{
   height: 100%;
 }
+.h-\[5rem\]{
+  height: 5rem;
+}
 .max-h-full{
   max-height: 100%;
 }
@@ -415,6 +418,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-auto{
   width: auto;
+}
+.max-w-\[20rem\]{
+  max-width: 20rem;
+}
+.max-w-\[25rem\]{
+  max-width: 25rem;
+}
+.max-w-\[23rem\]{
+  max-width: 23rem;
+}
+.max-w-\[22rem\]{
+  max-width: 22rem;
 }
 .grow{
   flex-grow: 1;
@@ -470,6 +485,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-\[1\.5rem\]{
   gap: 1.5rem;
 }
+.gap-\[1rem\]{
+  gap: 1rem;
+}
+.gap-\[2\.5rem\]{
+  gap: 2.5rem;
+}
 .justify-self-end{
   justify-self: end;
 }
@@ -478,6 +499,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .rounded-full{
   border-radius: 9999px;
+}
+.border{
+  border-width: 1px;
 }
 .border-b-\[1\.5rem\]{
   border-bottom-width: 1.5rem;
@@ -544,6 +568,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(143 214 199 / var(--tw-bg-opacity));
 }
+.bg-\[\#58C6FF\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 198 255 / var(--tw-bg-opacity));
+}
+.bg-\[\#5ECFFF\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(94 207 255 / var(--tw-bg-opacity));
+}
 .bg-mobile-header{
   background-image: url('../images/mobile/image-header.jpg');
 }
@@ -604,8 +636,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
+.py-\[5rem\]{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-\[4rem\]{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.px-\[1rem\]{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-\[1\.5rem\]{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.py-\[3\.5rem\]{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
 .pt-\[9rem\]{
   padding-top: 9rem;
+}
+.pt-\[4rem\]{
+  padding-top: 4rem;
 }
 .text-center{
   text-align: center;
@@ -640,6 +695,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .font-black{
   font-weight: 900;
 }
@@ -648,6 +707,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .tracking-\[\.4rem\]{
   letter-spacing: .4rem;
+}
+.tracking-widest{
+  letter-spacing: 0.1em;
+}
+.tracking-\[1\.5rem\]{
+  letter-spacing: 1.5rem;
+}
+.tracking-\[1rem\]{
+  letter-spacing: 1rem;
+}
+.tracking-\[\.5rem\]{
+  letter-spacing: .5rem;
+}
+.tracking-\[\.2rem\]{
+  letter-spacing: .2rem;
 }
 .text-white{
   --tw-text-opacity: 1;
@@ -672,6 +746,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-primary-blue{
   --tw-text-opacity: 1;
   color: hsl(198 62% 26% / var(--tw-text-opacity));
+}
+.text-neutral-blue4{
+  --tw-text-opacity: 1;
+  color: hsl(210 4% 67% / var(--tw-text-opacity));
+}
+.text-neutral-blue2{
+  --tw-text-opacity: 1;
+  color: hsl(213 9% 39% / var(--tw-text-opacity));
 }
 .opacity-0{
   opacity: 0;

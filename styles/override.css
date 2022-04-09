@@ -2,7 +2,6 @@ html {
   color: hsl(212, 27%, 19%);
   font-size: 18px;
   height: 100%;
-  overflow: hidden;
 }
 body {
   height: 100%;

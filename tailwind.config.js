@@ -5,6 +5,8 @@ module.exports = {
             backgroundImage: {
                 'desktop-header': "url('../images/desktop/image-header.jpg')",
                 'mobile-header': "url('../images/mobile/image-header.jpg')",
+                'desktop-transform': "url('../images/desktop/image-transform.jpg')",
+                'mobile-transform': "url('../images/mobile/image-transform.jpg')",
             },
             colors: {
                 primary: {

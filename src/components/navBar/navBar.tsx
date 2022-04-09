@@ -9,7 +9,7 @@ export const Navbar: FunctionComponent = () => {
     return (
         <>
             <div className="absolute w-full p-6 flex justify-between place-items-center">
-                <Logo />
+                <Logo className="fill-white" />
                 <Hamburger className="hover:opacity-50 md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)} />
                 <nav className="hidden md:flex md:gap-8 md:place-items-center">
                     {links.map((link, index) => (

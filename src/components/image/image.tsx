@@ -11,7 +11,7 @@ export const Image: FunctionComponent<ImageProps> = ({ image, screen, title }) =
     return (
         <img
             className={classNames(
-                { 'object-cover md:hidden': screen === 'mobile' },
+                { 'object-cover w-full md:hidden': screen === 'mobile' },
                 { 'hidden object-cover w-full md:block xl:w-auto': screen === 'desktop' },
             )}
             alt={title}

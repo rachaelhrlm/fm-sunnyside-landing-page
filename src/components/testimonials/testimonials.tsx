@@ -3,7 +3,7 @@ import { GridRow, TestimonialTile } from '..';
 
 export const Testimonials: FunctionComponent = () => {
     return (
-        <div className="bg-white text-center py-[4rem] flex flex-col">
+        <div className="bg-white text-center py-[4rem] flex flex-col md:py-[7rem]">
             <h1 className="uppercase font-serif text-sm text-neutral-blue4 tracking-[.2rem]">Client Testimonials</h1>
             <GridRow>
                 <TestimonialTile

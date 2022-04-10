@@ -831,6 +831,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
+  .lg\:py-\[9rem\]{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
   .lg\:pt-\[10rem\]{
     padding-top: 10rem;
   }

@@ -791,15 +791,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:h-\[32rem\]{
     height: 32rem;
   }
+  .lg\:h-\[40rem\]{
+    height: 40rem;
+  }
   .lg\:w-\[25rem\]{
     width: 25rem;
   }
   .lg\:pt-\[10rem\]{
     padding-top: 10rem;
   }
+  .lg\:pt-\[15rem\]{
+    padding-top: 15rem;
+  }
+  .lg\:pt-\[13rem\]{
+    padding-top: 13rem;
+  }
+  .lg\:pt-\[12rem\]{
+    padding-top: 12rem;
+  }
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 @media (min-width: 1280px){

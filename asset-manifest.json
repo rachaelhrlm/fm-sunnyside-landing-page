@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/fm-sunnyside-landing-page/static/js/main.331b86ba.js",
+    "main.js": "/fm-sunnyside-landing-page/static/js/main.066e9a84.js",
     "static/js/787.5bbddb6b.chunk.js": "/fm-sunnyside-landing-page/static/js/787.5bbddb6b.chunk.js",
     "static/media/logo.svg": "/fm-sunnyside-landing-page/static/media/logo.54eab83b8898f3eb931eeb35d96c467a.svg",
     "static/media/icon-instagram.svg": "/fm-sunnyside-landing-page/static/media/icon-instagram.7465c78341d91bed8b1c0e1943660797.svg",
@@ -10,10 +10,10 @@
     "static/media/icon-facebook.svg": "/fm-sunnyside-landing-page/static/media/icon-facebook.a46b02d0cdd50e49c61f4ce372d97e72.svg",
     "static/media/icon-arrow-down.svg": "/fm-sunnyside-landing-page/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "static/media/icon-hamburger.svg": "/fm-sunnyside-landing-page/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
-    "main.331b86ba.js.map": "/fm-sunnyside-landing-page/static/js/main.331b86ba.js.map",
+    "main.066e9a84.js.map": "/fm-sunnyside-landing-page/static/js/main.066e9a84.js.map",
     "787.5bbddb6b.chunk.js.map": "/fm-sunnyside-landing-page/static/js/787.5bbddb6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.331b86ba.js"
+    "static/js/main.066e9a84.js"
   ]
 }

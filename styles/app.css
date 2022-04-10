@@ -800,6 +800,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:h-\[45rem\]{
     height: 45rem;
   }
+  .lg\:h-\[33rem\]{
+    height: 33rem;
+  }
   .lg\:w-\[25rem\]{
     width: 25rem;
   }
@@ -823,6 +826,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
   .lg\:gap-\[5\.5rem\]{
     gap: 5.5rem;
+  }
+  .lg\:py-\[8rem\]{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   .lg\:pt-\[10rem\]{
     padding-top: 10rem;
